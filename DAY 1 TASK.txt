@@ -38,5 +38,16 @@ HTTP1.1 VS HTTP2:
   III.Header compression: Small files load more quickly than large ones. To speed up web performance, both HTTP/1.1 and HTTP/2 compress HTTP messages to make them       smaller. However, HTTP/2 uses a more advanced compression method called HPACK that eliminates redundant information in HTTP header packets. This eliminates a few
   bytes from every HTTP packet. Given the volume of HTTP packets involved in loading even a single webpage, those bytes add up quickly, resulting in faster loading.
   
+  2. Write a blog about objects and its internal representation in Javascript?
   
+  Answer:
   
+  Objects and properties:
+  A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are 	basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object.You 	access the properties of an object with a simple dot-notation:
+  Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You can define a property by assigning 	it a value.
+  
+  A JavaScript object is a collection of named values having state and behavior (properties and method)
+  
+  objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can 	be variables or functions and are called properties and methods, respectively, in the context of an object.
+  
+   For example: Person, car, pen, bike, Personal Computer , Washing Machine etc. Take the case of cars. All cars have the same properties, but the property values 	differ from car to car.
