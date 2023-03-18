@@ -22,13 +22,3 @@ for(let i = 0; i < jsondb.length; i++) {
     console.log(db);
 }
 
-//JSON for in loop
-var json = {
-    "one": [11, 12, 13, 14, 15],
-    two: [21, 22, 23],
-    three: [31, 32]
- };
- for(var key in json.jsonData) {{
-        console.log(json.jsonData[key])
-    }
- }
