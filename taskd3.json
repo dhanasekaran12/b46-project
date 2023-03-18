@@ -1,0 +1,52 @@
+{
+    "bio-data": {
+    "name": "Dhansekaran.S",
+    "Age":"19",
+    "dateofbirth":"12/02/2004",
+    "email": "www.dhanos12@gmail.com",
+    "phone": "9361929866",
+    "degree": "ITI-Computer operater and program assistant",
+    }
+     {"location": 
+      "address": "21/82,Indico Nagar Konnachal P.O. , Erumad,pandalur,The Nilgirirs. Tamil Nadu-643239.",
+      "pinCode": "643239",
+      "city": "The Nilgiris",
+    }
+   "education":{
+        "institution": "GOVERNMENT HIGHER SECONDARY SCHOOL,AMBALAMOOLA",
+        "Qualification":"SSLC",
+        "YEAR of passing":"2019",
+        "Percentage":"66.4",
+            
+        "institution": "GOVERNMENT HIGHER SECONDARY SCHOOL,AMBALAMOOLA",
+        "Qualification":"HSC",
+        "YEAR of passing":"2021",
+        "Percentage":"74.67",
+        
+        "institution": "GOVERNMENT ITI THOOTHUKUDI",
+        "Qualification":"ITI(COPA)",
+        "YEAR of passing":"2022",
+        "Percentage":"94.67"
+}
+{"skills"[
+"skill":"familiar with MS office",
+"skill":"typewriting",
+]}
+{
+    "interest":{
+        "interest":"browsing about new infomation"'
+        "interest":"sports",
+    }
+{
+    "declaration":{
+        "I hereby declare that all details above are true to the best of my knowledge and belief"
+    }
+}
+
+
+}
+        
+
+
+
+}
