@@ -1,0 +1,26 @@
+HOW TO COMPARE TWO JSON HAVE THE SAME PROPERTIES WITHOUT ORDER ?
+  ANSWER:
+  let  obj1 = {name:"person", age:5};
+let obj2 = {age:5,name:"person"};
+
+function isEqual(obj1,obj2){
+var obj1Keys = Object.keys(obj1);
+var obj2Keys = Object.keys(obj2);
+
+if (obj1Keys.length != obj2Keys.length){
+    return false
+}
+for (var objKey of obj2Keys) {
+    console.log(obj1Keys);
+    console.log(objKey);
+    if (obj1[objKey] != obj2[objKey]) {
+        return false;
+    }
+}
+
+    return true;
+
+}
+console.log(isEqual(obj1,obj2));
+
+2.
