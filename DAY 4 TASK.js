@@ -1,5 +1,5 @@
-HOW TO COMPARE TWO JSON HAVE THE SAME PROPERTIES WITHOUT ORDER ?
-  ANSWER:
+//HOW TO COMPARE TWO JSON HAVE THE SAME PROPERTIES WITHOUT ORDER ?
+  //ANSWER:
   let  obj1 = {name:"person", age:5};
 let obj2 = {age:5,name:"person"};
 
@@ -23,9 +23,9 @@ for (var objKey of obj2Keys) {
 }
 console.log(isEqual(obj1,obj2));
 
-2. Use the rest countries API URL -> https://restcountries.com/v3.1/all and display all the country flags in the console
+//2. Use the rest countries API URL -> https://restcountries.com/v3.1/all and display all the country flags in the console
 
-  answer:
+  //answer:
 var xhr = new XMLHttpRequest();
 xhr.open('GET','https://restcountries.com/v3.1/all');
 xhr.responseType = 'json';
@@ -37,9 +37,9 @@ var responseObj = xhr.response;
 }
 }
 
-3.Use the same rest countries and print all countries names, regions,sub-region and population
+//3.Use the same rest countries and print all countries names, regions,sub-region and population
 
-  Answer:
+  //Answer:
 var xhr = new XMLHttpRequest();
 xhr.open('GET','https://restcountries.com/v3.1/all');
 xhr.responseType = 'json';
